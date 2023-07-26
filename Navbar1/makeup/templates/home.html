@@ -1,0 +1,90 @@
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div style = "float:center;margin-top:16px;background-color:plum">
+  <div style = "float:center">
+      {% load static %}
+      <center><img src="{% static 'l.png' %}" height=300px width=1500px></center></div>
+
+</div>
+<div style = "background-color:lightgreen;float:left;margin-top:16px; ">
+  <div style = "float:left;">
+	    {% load static %}
+      <img src="{% static 'images1.jpeg' %}" height=220px width=200px>
+  </div>
+  <div style = "font-size: 25px">
+    <b>EYE-SHADOW</b><br>
+    Eye shadow (or eyeshadow) is a cosmetic applied primarily to the eyelids to attract attention to the wearer's eyes, making them stand out or look more attractive. Eye shadow can also be applied under the eyes, on the cheeks, or to brow bones.
+    Eye shadow (or eyeshadow) is a cosmetic applied primarily to the eyelids to attract attention to the wearer's eyes, making them stand out or look more attractive. Eye shadow can also be applied under the eyes, on the cheeks, or to brow bones.
+    <a href = "https://en.wikipedia.org/wiki/Eye_shadow">READ MORE</a>
+  </div>
+</div>
+
+</div>
+<div style = "background-color:lightpink;float:left;margin-top:16px; ">
+  <div style = "float:left;">
+      {% load static %}
+      <img src="{% static 'lip.jpeg' %}" height=220px width=200px>
+  </div>
+  <div style = "font-size: 25px">
+    <b>LIP-STICK</b><br>
+    Lipstick is a cosmetic product used to apply coloration and texture to lips, often made of wax and oil. Different pigments are used to produce color, and minerals such as silica may be used to provide texture. The use of lipstick dates back to early civilizations such as Sumer and the Indus Valley Civilisation, and was popularized in the Western world in the 16th century. Some lipsticks contain traces of toxic materials, such as lead and PFAS, which prompted health concerns and regulation.
+    <a href = "https://en.wikipedia.org/wiki/Lipstick">READ MORE</a>
+  </div> 
+</div>
+
+</div>
+<div style = "background-color:coral;float:left;margin-top:16px; ">
+  <div style = "float:left;">
+      {% load static %}
+      <img src="{% static 'blush.jpg' %}" height=220px width=200px>
+  </div>
+  <div style = "font-size: 25px">
+    <b>BLUSH-TINTS</b><br>
+    The Ancient Egyptians were known for their creation of cosmetics, particularly their use of rouge. Ancient Egyptian pictographs show men and women wearing lip and cheek rouge. They blended fat with red ochre to create a stain that was red in color.
+    Greek men and women eventually mimicked the look, using crushed mulberries, red beet juice, crushed strawberries, or red amaranth to create a paste. Those who wore makeup were viewed as wealthy and it symbolized status because cosmetics were costly.
+    <a href = "https://en.wikipedia.org/wiki/Rouge_(cosmetics)">READ MORE</a>
+  </div> 
+</div>
+</body>
+</html>
